@@ -1,0 +1,72 @@
+{
+  "ischwartz": {
+    "guesses": [
+      [
+        {
+          "letter": "a",
+          "correct": 2
+        },
+        {
+          "letter": "b",
+          "correct": 2
+        },
+        {
+          "letter": "e",
+          "correct": 0
+        },
+        {
+          "letter": "t",
+          "correct": 1
+        },
+        {
+          "letter": "s",
+          "correct": 0
+        }
+      ],
+      [
+        {
+          "letter": "a",
+          "correct": 2
+        },
+        {
+          "letter": "b",
+          "correct": 2
+        },
+        {
+          "letter": "e",
+          "correct": 0
+        },
+        {
+          "letter": "t",
+          "correct": 1
+        },
+        {
+          "letter": "s",
+          "correct": 0
+        }
+      ],
+      [
+        {
+          "letter": "a",
+          "correct": 2
+        },
+        {
+          "letter": "b",
+          "correct": 2
+        },
+        {
+          "letter": "e",
+          "correct": 0
+        },
+        {
+          "letter": "t",
+          "correct": 1
+        },
+        {
+          "letter": "s",
+          "correct": 0
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+ls *.ts | entr deno run --allow-read --allow-write --allow-env --allow-run index.ts --guess abets
