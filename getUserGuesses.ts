@@ -1,10 +1,14 @@
 import username from "https://deno.land/x/username/mod.ts";
+import dir from "https://deno.land/x/dir/mod.ts";
 import {Guess} from "./compareWords.ts";
 import {gameId} from "./wordOfTheDay.ts";
 
+const homeDirectory = dir("home");
+
 let json: Record<string, {currentGame: number, guesses: Guess[][], wins: {numberOfGuesses: number, gameId: number}[]}> = {};
 let name: string = '';
-const statsPath = new URL('.', import.meta.url).pathname + ".wordleStats.json"
+const statsPath = homeDirectory + "/.wordleStats.json"
+console.log({statsPath})
 
 export const readOrCreate = async (path: string) => {
     name = await username() ?? '';
