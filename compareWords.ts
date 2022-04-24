@@ -1,23 +1,22 @@
 export type Guess = {
-    letter: string,
-    correct: 0 | 1 | 2,
+    l: string,
+    c: 0 | 1 | 2,
 }
 export const compareWords = (guess: string, answer: string): Guess[] => {
-    const letters: Guess[] = guess.split('').map((letter, index) => {
+    return guess.split('').map((letter, index) => {
         if (letter === answer[index]) {
             return {
-                letter,
-                correct: 2
+                l: letter,
+                c: 2
             }
         }
         if (!answer.includes(letter)) {
             return {
-                letter,
-                correct: 0,
+                l: letter,
+                c: 0,
             }
         }
 
-        return {letter, correct: 1}
+        return {l: letter, c: 1}
     });
-    return letters;
 }

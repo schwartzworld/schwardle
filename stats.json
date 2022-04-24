@@ -3,70 +3,143 @@
     "guesses": [
       [
         {
-          "letter": "a",
-          "correct": 2
+          "l": "s",
+          "c": 0
         },
         {
-          "letter": "b",
-          "correct": 2
+          "l": "a",
+          "c": 1
         },
         {
-          "letter": "e",
-          "correct": 0
+          "l": "l",
+          "c": 0
         },
         {
-          "letter": "t",
-          "correct": 1
+          "l": "a",
+          "c": 1
         },
         {
-          "letter": "s",
-          "correct": 0
+          "l": "d",
+          "c": 1
         }
       ],
       [
         {
-          "letter": "a",
-          "correct": 2
+          "l": "d",
+          "c": 1
         },
         {
-          "letter": "b",
-          "correct": 2
+          "l": "a",
+          "c": 1
         },
         {
-          "letter": "e",
-          "correct": 0
+          "l": "t",
+          "c": 0
         },
         {
-          "letter": "t",
-          "correct": 1
+          "l": "e",
+          "c": 1
         },
         {
-          "letter": "s",
-          "correct": 0
+          "l": "s",
+          "c": 0
         }
       ],
       [
         {
-          "letter": "a",
-          "correct": 2
+          "l": "c",
+          "c": 0
         },
         {
-          "letter": "b",
-          "correct": 2
+          "l": "h",
+          "c": 0
         },
         {
-          "letter": "e",
-          "correct": 0
+          "l": "a",
+          "c": 1
         },
         {
-          "letter": "t",
-          "correct": 1
+          "l": "i",
+          "c": 1
         },
         {
-          "letter": "s",
-          "correct": 0
+          "l": "n",
+          "c": 0
+        }
+      ],
+      [
+        {
+          "l": "m",
+          "c": 0
+        },
+        {
+          "l": "a",
+          "c": 1
+        },
+        {
+          "l": "t",
+          "c": 0
+        },
+        {
+          "l": "e",
+          "c": 1
+        },
+        {
+          "l": "d",
+          "c": 1
+        }
+      ],
+      [
+        {
+          "l": "a",
+          "c": 2
+        },
+        {
+          "l": "b",
+          "c": 2
+        },
+        {
+          "l": "o",
+          "c": 0
+        },
+        {
+          "l": "u",
+          "c": 0
+        },
+        {
+          "l": "t",
+          "c": 0
+        }
+      ],
+      [
+        {
+          "l": "a",
+          "c": 2
+        },
+        {
+          "l": "b",
+          "c": 2
+        },
+        {
+          "l": "l",
+          "c": 0
+        },
+        {
+          "l": "e",
+          "c": 1
+        },
+        {
+          "l": "d",
+          "c": 1
         }
       ]
-    ]
+    ],
+    "wins": [
+      {
+        "numberOfGuesses": 2,
+        "gameId": 5
+      }
+    ],
+    "currentGame": 6
   }
 }
