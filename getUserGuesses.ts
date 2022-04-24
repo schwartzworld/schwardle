@@ -8,7 +8,6 @@ const homeDirectory = dir("home");
 let json: Record<string, {currentGame: number, guesses: Guess[][], wins: {numberOfGuesses: number, gameId: number}[]}> = {};
 let name: string = '';
 const statsPath = homeDirectory + "/.wordleStats.json"
-console.log({statsPath})
 
 export const readOrCreate = async (path: string) => {
     name = await username() ?? '';
