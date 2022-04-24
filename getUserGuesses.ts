@@ -4,7 +4,7 @@ import {gameId} from "./wordOfTheDay.ts";
 
 let json: Record<string, {currentGame: number, guesses: Guess[][], wins: {numberOfGuesses: number, gameId: number}[]}> = {};
 let name: string = '';
-const statsPath = "./stats.json"
+const statsPath = new URL('.', import.meta.url).pathname + ".wordleStats.json"
 
 export const readOrCreate = async (path: string) => {
     name = await username() ?? '';
